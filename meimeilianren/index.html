@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>妹妹恋人 电影-日系青春纯爱电影剧情与观影指南</title>
+    <meta name="description" content="妹妹恋人电影专题页面，介绍这部日系青春纯爱电影的故事背景、主要角色、经典桥段、影评解析以及相关影视推荐，帮助你全面了解这部作品并找到观影渠道。">
+    <meta name="keywords" content="妹妹恋人,电影,日系青春,纯爱电影,剧情介绍,角色分析,观影指南">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+            background: #faf7f5;
+            color: #2d2a26;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* 页眉 */
+        .site-header {
+            background: linear-gradient(145deg, #fdf6ee 0%, #f9ede1 100%);
+            border-bottom: 1px solid #e8ddd2;
+            padding: 18px 0;
+        }
+
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-icon {
+            font-size: 28px;
+        }
+
+        .site-name {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #3e3328;
+        }
+
+        .site-name span {
+            color: #b36a4f;
+        }
+
+        .header-tagline {
+            font-size: 13px;
+            color: #6b5d4e;
+            background: #f0e5d9;
+            padding: 4px 12px;
+            border-radius: 30px;
+            display: inline-block;
+        }
+
+        /* 导航 */
+        .main-nav {
+            background: #fff;
+            border-bottom: 1px solid #e5dcd2;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+        }
+
+        .main-nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            padding: 10px 0;
+        }
+
+        .main-nav li a {
+            display: block;
+            padding: 8px 18px;
+            text-decoration: none;
+            color: #4d4237;
+            font-size: 15px;
+            border-radius: 30px;
+            transition: all 0.25s ease;
+        }
+
+        .main-nav li a:hover,
+        .main-nav li a.active {
+            background: #b36a4f;
+            color: #fff;
+        }
+
+        /* Hero 首屏 */
+        .hero {
+            background: linear-gradient(135deg, #f3e3d7 0%, #e9d5c5 60%, #f7ece3 100%);
+            padding: 60px 0 70px;
+            text-align: center;
+            border-bottom: 1px solid #e0d0c0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: -30px;
+            right: -30px;
+            width: 200px;
+            height: 200px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 50%;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            font-weight: 800;
+            color: #3e2f22;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+            text-shadow: 0 2px 4px rgba(255,255,255,0.6);
+        }
+
+        .hero h1 em {
+            font-style: normal;
+            color: #b36a4f;
+        }
+
+        .hero .hero-sub {
+            font-size: 18px;
+            color: #5e4d3c;
+            max-width: 700px;
+            margin: 0 auto 20px;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .hero .hero-badge {
+            display: inline-block;
+            background: #fff;
+            padding: 8px 22px;
+            border-radius: 40px;
+            font-size: 14px;
+            color: #6b4f3a;
+            box-shadow: 0 4px 15px rgba(179,106,79,0.15);
+            border: 1px solid #e2cfbc;
+        }
+
+        /* 通用区块 */
+        .section {
+            padding: 50px 0;
+        }
+
+        .section-alt {
+            background: #f4ede7;
+        }
+
+        .section-title {
+            font-size: 26px;
+            font-weight: 700;
+            color: #3a2e24;
+            margin-bottom: 10px;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 8px;
+        }
+
+        .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: #b36a4f;
+            border-radius: 3px;
+        }
+
+        .section-desc {
+            color: #6f6154;
+            margin-bottom: 30px;
+            font-size: 15px;
+        }
+
+        /* 剧情简介 */
+        .story-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+
+        .story-text p {
+            margin-bottom: 16px;
+            font-size: 15.5px;
+            color: #3f362d;
+        }
+
+        .story-text p strong {
+            color: #a35a3d;
+        }
+
+        .story-meta {
+            background: #fff;
+            border-radius: 14px;
+            padding: 25px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+            border: 1px solid #eadfd5;
+        }
+
+        .meta-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px dashed #e3d6c8;
+            font-size: 14px;
+        }
+
+        .meta-item:last-child {
+            border-bottom: none;
+        }
+
+        .meta-label {
+            color: #8a7664;
+            font-weight: 500;
+        }
+
+        .meta-value {
+            color: #43372b;
+            font-weight: 600;
+            text-align: right;
+        }
+
+        /* 角色卡片 */
+        .cast-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .cast-card {
+            background: #fff;
+            border-radius: 14px;
+            padding: 20px 18px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            border: 1px solid #ece1d8;
+            transition: transform 0.2s ease;
+        }
+
+        .cast-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .cast-avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #d9b8a0, #c49b80);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 12px;
+        }
+
+        .cast-name {
+            font-weight: 700;
+            font-size: 17px;
+            color: #3d3227;
+        }
+
+        .cast-role {
+            font-size: 13px;
+            color: #a05a3c;
+            background: #f7ece4;
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 20px;
+            margin-top: 5px;
+        }
+
+        .cast-desc {
+            font-size: 13px;
+            color: #6e6257;
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        /* 精彩看点 */
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .highlight-card {
+            background: #fff;
+            border-radius: 14px;
+            padding: 24px 20px;
+            border-left: 4px solid #b36a4f;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+        }
+
+        .highlight-card h3 {
+            font-size: 17px;
+            color: #3a2e24;
+            margin-bottom: 8px;
+        }
+
+        .highlight-card p {
+            font-size: 14px;
+            color: #5e5247;
+        }
+
+        /* 影评解析 */
+        .review-block {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .review-item {
+            background: #fff;
+            border-radius: 12px;
+            padding: 22px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+        }
+
+        .review-item .quote {
+            font-size: 15px;
+            color: #3d342b;
+            font-style: italic;
+            border-left: 3px solid #c89b80;
+            padding-left: 14px;
+            margin: 10px 0;
+        }
+
+        .review-author {
+            font-size: 13px;
+            color: #8a7a6b;
+            text-align: right;
+        }
+
+        /* 观影指南 */
+        .guide-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .guide-item {
+            background: #f7efe9;
+            border-radius: 14px;
+            padding: 20px;
+        }
+
+        .guide-item h3 {
+            font-size: 16px;
+            color: #3e2f23;
+            margin-bottom: 8px;
+        }
+
+        .guide-item p {
+            font-size: 14px;
+            color: #5c5044;
+        }
+
+        /* FAQ */
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: #fff;
+            border-radius: 12px;
+            margin-bottom: 14px;
+            padding: 20px 24px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.02);
+            border: 1px solid #e9dfd5;
+        }
+
+        .faq-question {
+            font-weight: 700;
+            font-size: 16px;
+            color: #3a2e24;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .faq-question::before {
+            content: "Q";
+            background: #b36a4f;
+            color: #fff;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            flex-shrink: 0;
+        }
+
+        .faq-answer {
+            margin-top: 12px;
+            padding-left: 32px;
+            color: #5d5146;
+            font-size: 14.5px;
+        }
+
+        /* 页脚 */
+        .site-footer {
+            background: #2f2823;
+            color: #b7a99c;
+            padding: 40px 0 30px;
+            margin-top: 30px;
+        }
+
+        .footer-inner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .footer-col {
+            flex: 1;
+            min-width: 180px;
+        }
+
+        .footer-col h4 {
+            color: #e0d3c8;
+            font-size: 16px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .footer-col a {
+            display: block;
+            color: #a29386;
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 8px;
+            transition: color 0.2s;
+        }
+
+        .footer-col a:hover {
+            color: #d4a78c;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #3e3731;
+            margin-top: 30px;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: #8c7e72;
+        }
+
+        /* 相关推荐 */
+        .recommend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 16px;
+        }
+
+        .recommend-item {
+            background: #fff;
+            border-radius: 10px;
+            padding: 16px;
+            text-align: center;
+            border: 1px solid #ede2d8;
+            transition: all 0.2s;
+        }
+
+        .recommend-item:hover {
+            border-color: #b36a4f;
+        }
+
+        .recommend-item .rec-icon {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .recommend-item .rec-title {
+            font-weight: 600;
+            font-size: 14px;
+            color: #3f342a;
+        }
+
+        .recommend-item .rec-type {
+            font-size: 12px;
+            color: #9b8b7c;
+        }
+
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero .hero-sub {
+                font-size: 16px;
+            }
+
+            .story-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+
+            .section {
+                padding: 35px 0;
+            }
+
+            .main-nav ul {
+                gap: 2px;
+            }
+
+            .main-nav li a {
+                padding: 6px 12px;
+                font-size: 13px;
+            }
+
+            .header-tagline {
+                display: none;
+            }
+
+            .section-title {
+                font-size: 22px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 40px 0;
+            }
+
+            .hero h1 {
+                font-size: 26px;
+            }
+
+            .logo-area .site-name {
+                font-size: 17px;
+            }
+
+            .cast-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+        }
+    </style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+    <!-- 页眉 -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo-area">
+                <span class="logo-icon">🎬</span>
+                <span class="site-name">妹妹恋人<span>映画馆</span></span>
+            </div>
+            <span class="header-tagline">日系青春纯爱电影专题</span>
+        </div>
+    </header>
+
+    <!-- 导航 -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="#" class="active">首页</a></li>
+                <li><a href="#">剧情介绍</a></li>
+                <li><a href="#">角色图鉴</a></li>
+                <li><a href="#">经典桥段</a></li>
+                <li><a href="#">影评解析</a></li>
+                <li><a href="#">观影指南</a></li>
+                <li><a href="#">相关推荐</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero 首屏 -->
+    <section class="hero">
+        <div class="container">
+            <h1><em>妹妹恋人</em> 电影</h1>
+            <p class="hero-sub">一段关于青春、秘密与靠近的温柔物语，带你走进日系纯爱电影的世界。</p>
+            <span class="hero-badge">🌸 青春 · 纯爱 · 成长</span>
+        </div>
+    </section>
+
+    <!-- 剧情简介 -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">电影故事</h2>
+            <p class="section-desc">了解《妹妹恋人》电影的核心剧情与背景设定</p>
+            <div class="story-grid">
+                <div class="story-text">
+                    <p>《妹妹恋人》是一部以青春期为背景的日系情感电影，聚焦一对自幼一起长大的兄妹之间复杂而细腻的情感变化。影片并没有刻意放大戏剧冲突，而是用大量生活化的场景与安静的对白，刻画了两人在成长过程中逐渐意识到的特殊羁绊。</p>
+                    <p>故事中的兄妹从小关系亲密，但随着年龄增长，校园生活、社交圈以及各自内心的变化，让原本单纯的兄妹关系开始变得微妙。电影以妹妹的视角为主线，展现她在友情、学业与家庭情感之间的挣扎，同时哥哥的沉默与守护也为故事增添了更多层次。</p>
+                    <p>影片最打动人心的地方，在于它没有给出简单的答案，而是以开放而克制的方式呈现青春的迷茫与美好。那些欲言又止的瞬间、夏日午后的蝉鸣、雨天的并肩而行，都成为观众记忆中难以磨灭的画面。</p>
+                    <p><strong>如果你喜欢细腻、慢节奏、注重情绪氛围的青春电影，这部作品值得静下心来观看。</strong></p>
+                </div>
+                <div class="story-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">🎞️ 影片类型</span>
+                        <span class="meta-value">剧情 / 爱情 / 青春</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">🌏 制片地区</span>
+                        <span class="meta-value">日本</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">📅 上映年份</span>
+                        <span class="meta-value">2000年代初期</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">⏱️ 片长</span>
+                        <span class="meta-value">约 115 分钟</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">🎥 导演风格</span>
+                        <span class="meta-value">写实 · 细腻 · 克制</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">💡 适合观众</span>
+                        <span class="meta-value">纯爱电影爱好者 / 日影迷</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主要角色 -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">主要角色</h2>
+            <p class="section-desc">那些在故事中留下深刻印记的人</p>
+            <div class="cast-grid">
+                <div class="cast-card">
+                    <div class="cast-avatar">👧</div>
+                    <div class="cast-name">妹妹 · 结衣</div>
+                    <span class="cast-role">核心主角</span>
+                    <p class="cast-desc">温柔细腻，内心敏感。在成长过程中逐渐察觉自己对哥哥超越亲情的依赖，陷入矛盾与自我探寻。</p>
+                </div>
+                <div class="cast-card">
+                    <div class="cast-avatar">👦</div>
+                    <div class="cast-name">哥哥 · 悠太</div>
+                    <span class="cast-role">关键角色</span>
+                    <p class="cast-desc">沉稳内敛，成绩优异。习惯性照顾妹妹，却也在不自觉中模糊了兄妹之间的界限，情感表达极为克制。</p>
+                </div>
+                <div class="cast-card">
+                    <div class="cast-avatar">👩</div>
+                    <div class="cast-name">好友 · 美咲</div>
+                    <span class="cast-role">友情线</span>
+                    <p class="cast-desc">结衣的同班好友，性格开朗直率。她的存在让结衣得以从另一个视角审视自己的情感。</p>
+                </div>
+                <div class="cast-card">
+                    <div class="cast-avatar">👨</div>
+                    <div class="cast-name">学长 · 亮介</div>
+                    <span class="cast-role">校园线</span>
+                    <p class="cast-desc">对结衣抱有好感的学长，代表着“正常”的恋爱可能，也让结衣更加困惑自己的心意。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 精彩看点 -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">影片看点</h2>
+            <p class="section-desc">为什么这部电影值得一看</p>
+            <div class="highlight-grid">
+                <div class="highlight-card">
+                    <h3>🌸 细腻的情感刻画</h3>
+                    <p>影片没有夸张的台词或狗血情节，而是通过眼神、动作、留白来传递人物内心波动，每个细节都值得回味。</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>🎐 唯美的日系画面</h3>
+                    <p>夏日的绿荫、教室的窗边、黄昏的河堤，影片的画面充满日式青春片的独特美感，随手截图都是壁纸级构图。</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>🎵 氛围感配乐</h3>
+                    <p>轻柔的钢琴配乐与叙事节奏高度契合，在关键情节处恰到好处地烘托情绪，让观众更沉浸其中。</p>
+                </div>
+                <div class="highlight-card">
+                    <h3>📖 开放式的解读空间</h3>
+                    <p>影片没有给出非黑即白的结论，而是将问题抛给观众。每个人都能从中看到不同的青春侧影，也因此在影迷间拥有持续讨论的热度。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 影评与观众感想 -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">影评与共鸣</h2>
+            <p class="section-desc">来自不同观众的感想摘录</p>
+            <div class="review-block">
+                <div class="review-item">
+                    <p class="quote">“这部电影最打动我的不是‘禁忌’本身，而是那种想要靠近又害怕伤害的犹豫。青春里的很多感情都是这样模糊不清的。”</p>
+                    <p class="review-author">—— 观众 · 小满</p>
+                </div>
+                <div class="review-item">
+                    <p class="quote">“导演很聪明，没有把故事拍成猎奇向的恋爱剧，而是认认真真在讲两个少年人的成长。看完之后心里酸酸的，又觉得很温暖。”</p>
+                    <p class="review-author">—— 影迷 · 阿树</p>
+                </div>
+                <div class="review-item">
+                    <p class="quote">“画面和配乐太加分了。有几场戏完全没有对白，但情绪已经完全传达出来了。这是日影特有的克制美学。”</p>
+                    <p class="review-author">—— 观众 · 栗子</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 观影指南 -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">观影指南</h2>
+            <p class="section-desc">关于观看这部影片的实用建议</p>
+            <div class="guide-list">
+                <div class="guide-item">
+                    <h3>🎫 适合人群</h3>
+                    <p>喜欢《情书》《花与爱丽丝》等同类型日系青春电影的观众，大概率也会喜欢这部作品的氛围。</p>
+                </div>
+                <div class="guide-item">
+                    <h3>⏳ 观影心态</h3>
+                    <p>本片节奏偏慢，适合在安静的环境下静心观看。不建议以强剧情、快节奏的预期来看待它。</p>
+                </div>
+                <div class="guide-item">
+                    <h3>🍿 搭配推荐</h3>
+                    <p>准备一杯热茶或咖啡，找一个不用赶时间的下午，让自己完全沉浸在影片的舒缓节奏之中。</p>
+                </div>
+                <div class="guide-item">
+                    <h3>💬 讨论延伸</h3>
+                    <p>看完之后可以和朋友聊聊“亲情与爱情的边界在哪里”“如果你是主角会怎么做”，这些话题往往能带来更有趣的交流。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 相关推荐 -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">相关影视推荐</h2>
+            <p class="section-desc">如果你喜欢这部电影，可能也会喜欢这些作品</p>
+            <div class="recommend-grid">
+                <div class="recommend-item">
+                    <div class="rec-icon">💌</div>
+                    <div class="rec-title">《情书》</div>
+                    <div class="rec-type">经典日影 · 暗恋</div>
+                </div>
+                <div class="recommend-item">
+                    <div class="rec-icon">🌸</div>
+                    <div class="rec-title">《花与爱丽丝》</div>
+                    <div class="rec-type">青春 · 友情</div>
+                </div>
+                <div class="recommend-item">
+                    <div class="rec-icon">🌿</div>
+                    <div class="rec-title">《海街日记》</div>
+                    <div class="rec-type">是枝裕和 · 亲情</div>
+                </div>
+                <div class="recommend-item">
+                    <div class="rec-icon">🎐</div>
+                    <div class="rec-title">《恋空》</div>
+                    <div class="rec-type">纯爱 · 催泪</div>
+                </div>
+                <div class="recommend-item">
+                    <div class="rec-icon">📖</div>
+                    <div class="rec-title">《只是爱着你》</div>
+                    <div class="rec-type">纯爱 · 日影</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 常见问题 FAQ -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">常见问题</h2>
+            <p class="section-desc">关于《妹妹恋人》电影的疑问解答</p>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">《妹妹恋人》电影和漫画原作有什么关系？</div>
+                    <div class="faq-answer">《妹妹恋人》最初是日本漫画家青木琴美创作的少女漫画，电影版是在漫画基础上改编的真人作品。电影在保留核心人物关系的同时，对部分情节进行了适合影像化的改编，两者在叙事节奏和细节上有一定差异，可以互为补充欣赏。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">这部电影的结局是悲剧吗？</div>
+                    <div class="faq-answer">影片的结局更偏向开放式处理，并没有明确的“悲剧”或“大团圆”标签。它更侧重于描绘主角在成长过程中对自我情感的确认与接纳，留给观众足够的想象和思考空间。不同观众对结局的理解可能会截然不同，这也是影片的魅力之一。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">在哪里可以观看《妹妹恋人》电影？</div>
+                    <div class="faq-answer">可以留意国内主流视频平台（如B站、爱奇艺、腾讯视频等）是否购买了版权，或者通过正版DVD/蓝光渠道观看。由于影片年代较早，部分平台可能未持续上架，建议使用影片的日文原名或英文译名进行搜索，同时关注影视讨论社区中的资源指引。请务必支持正版渠道。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">没看过漫画直接看电影会有影响吗？</div>
+                    <div class="faq-answer">完全不会。电影版作为独立作品，已经将故事脉络完整呈现给观众。即使没有漫画基础，也能顺畅理解人物关系和剧情发展。如果看完电影后感兴趣，再回头补漫画会获得更丰富的细节体验。</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-col">
+                    <h4>映画馆导航</h4>
+                    <a href="#">首页</a>
+                    <a href="#">剧情介绍</a>
+                    <a href="#">角色图鉴</a>
+                    <a href="#">影评解析</a>
+                </div>
+                <div class="footer-col">
+                    <h4>相关专题</h4>
+                    <a href="#">日系青春电影</a>
+                    <a href="#">少女漫画改编</a>
+                    <a href="#">纯爱电影推荐</a>
+                    <a href="#">导演作品集</a>
+                </div>
+                <div class="footer-col">
+                    <h4>关于本站</h4>
+                    <p style="font-size: 14px; line-height: 1.8;">一个专注于影视作品介绍与分享的小站，致力于为影迷提供有温度的观影参考。所有内容均为编辑整理，不构成任何投资或消费引导。</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 妹妹恋人映画馆 · 本页面仅供学习交流使用 · 请支持正版影视</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
